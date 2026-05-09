@@ -10,7 +10,7 @@ Trigger:setTriggerActiveAndFunc("WatchAd", true, function(reqdisable, data)
     end
 end)
 
-ScriptSupportEvent:registerEvent("Player.ClickBlock", function(param)
+ScriptSupportEvent:registerEvent("UI.Button.Click", function(param)
     local cur = param.CurEventParam
     if not cur or not cur.TriggerByPlayer then return end
 
