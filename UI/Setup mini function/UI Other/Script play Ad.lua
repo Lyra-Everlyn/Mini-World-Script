@@ -4,7 +4,6 @@ Trigger:setTriggerActiveAndFunc("WatchAd", true, function(reqdisable, data)
         local finishEvent = Trigger.VCCommon:checkEventFinish(true)
 
         if not finishEvent then return end
-        
         --Chat:sendSystemMsg("Người chơi " .. playerid .. " đã xem xong quảng cáo!")
         --Trigger.Player:killPlayer(playerid)
     end
